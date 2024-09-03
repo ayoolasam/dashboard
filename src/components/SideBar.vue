@@ -1,6 +1,6 @@
 <template>
   <div
-    class="text-white h-full    px-4 w-[18%] flex flex-col justify-around box items-center"
+    class="text-white    px-4 w-[18%] flex flex-col justify-around box items-center"
   >
     <div class="image">
       <img
@@ -9,27 +9,27 @@
         class="bg-primary h-[40px] w-[80px] mt-[20px]"
       />
     </div>
-    <ul class="list  mt-[38px] w-full">
+    <ul class="list mt-[34px] w-full">
       <li
-        class="py-2.5 px-2 hover:bg-tertiary hover:text-primary hover:rounded-md items-center text-[17px] justify-start flex gap-2"
+        class="py-2.5 px-2 hover:bg-tertiary hover:text-primary hover:rounded-md items-center text-[16px] justify-start flex gap-2"
       >
         <i class="fa-solid fa-house"></i>Dashboard
       </li>
       <router-link to="/Staff-Management">
         <li
-          class="py-2.5 px-2 hover:bg-tertiary hover:text-primary hover:rounded-md  text-[17px] flex items-center justify-start gap-2"
+          class="py-2.5 px-2 hover:bg-tertiary hover:text-primary hover:rounded-md text-[17px] flex items-center justify-start gap-2"
         >
           <i class="fa-regular fa-user"></i>Staff Management
         </li>
       </router-link>
 
       <li
-        class="py-2.5 px-2 hover:bg-tertiary hover:text-primary hover:rounded-md  text-[17px]items-center justify-start flex gap-2"
+        class="py-2.5 px-2 hover:bg-tertiary hover:text-primary hover:rounded-md text-[17px]items-center justify-start flex gap-2"
       >
         <i class="fa-solid fa-chart-simple"></i>Staff Performance
       </li>
       <li
-        class="py-2.5 px-2 hover:bg-tertiary hover:text-primary hover:rounded-md text-[17px]  items-center justify-start flex gap-2"
+        class="py-2.5 px-2 hover:bg-tertiary hover:text-primary hover:rounded-md text-[17px] items-center justify-start flex gap-2"
       >
         <i class="fa-solid fa-chart-line"></i>Reports
       </li>
@@ -66,7 +66,7 @@
         <i class="fa-solid fa-headphones"></i>Support
       </li>
       <li
-        class="px-2 py-2 hover:bg-tertiary hover:text-primary hover:rounded-md  text-[17px] flex gap-2"
+        class="px-2 py-2 hover:bg-tertiary hover:text-primary hover:rounded-md text-[17px] flex gap-2"
       >
         <i class="fa-solid fa-right-from-bracket"></i>Sign Out
       </li>
@@ -82,31 +82,29 @@
     width: 70px;
     height: 40px;
   }
-  .box{
-width:20%;
+  .box {
+    width: 20%;
   }
 }
 @media (max-width: 805px) {
-  .box{
+  .box {
     display: none;
   }
 }
 @media (max-width: 1335px) {
-  .box{
+  .box {
     margin-top: 20px;
-   
-}
-li{
-  font-size: 15px;
-}
+  }
+  li {
+    font-size: 15px;
+  }
 }
 @media (max-width: 1258px) {
-  .box{
+  .box {
     margin-top: 20px;
-   
-}
-li{
-  font-size: 13px;
-}
+  }
+  li {
+    font-size: 13px;
+  }
 }
 </style>

@@ -6,7 +6,7 @@ import SideBar from './components/SideBar.vue'
 </script>
 
 <template>
-  <div class=" bg-primary  w-[100%] h-screen flex ">
+  <div class=" bg-primary  w-[100%]  flex ">
     <!-- <DashboardVue/> -->
      <SideBar/>
      <RouterView />
