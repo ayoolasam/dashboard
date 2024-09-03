@@ -1,6 +1,6 @@
 <template>
   <Dashboard>
-    <nav class="w-full   py-4 px-[10px] flex items-center justify-between  border-bColor border-b-[2px]">
+    <nav class="w-full   py-[2px] px-[10px] flex items-center justify-between  border-bColor border-b-[2px]">
       <h2 class=" font-bold text-primary text-2xl">Staff Management</h2>
     <div class="flex gap-2 mr-[20px] active:border-4 py-[5px] border-secondary active:rounded-md">
       <div class="w-[50px] h-[50px]">
@@ -17,7 +17,7 @@
     </nav>
 
 
-<div class="flex gap-4 px-[10px] pt-4 border-bColor py-4 border-b-[1px]">
+<div class="flex gap-4 px-[10px] pt-4 border-bColor py-[2px] border-b-[1px]">
   <span @click="ChangeTab(EmployeeInfo)" class="cursor-pointer active:text-secondary">Employee Information</span>
   <span @click="ChangeTab(Documents)" :class="{'text-secondary border-secondary  border-b-4' : CurrentTab === Documents  ,'cursor-pointer h-full':true }" >Documents</span>
 </div>

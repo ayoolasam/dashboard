@@ -1,5 +1,5 @@
 <template>
-  <div class="flex employeeInfo w-full px-12 py-12  gap-4">
+  <div class="flex employeeInfo     w-full px-12 py-[20px]  gap-[5px]">
 <div class="left w-[40%] flex flex-col gap-4">
   <div class=" top rounded-lg w-full  py-4 px-4 flex flex-col gap-6 border-bColor border-[1.5px]">
     
@@ -18,7 +18,7 @@
     </div>
    
   </div>
-  <div class="bottom bg-tertiary rounded-lg p-4 border-bColor border-[1.5px]">
+  <div class="bottom bg-tertiary rounded-lg p-[8px] border-bColor border-[1.5px]">
     <h1 class="font-bold text-xl">Education History</h1>
     <form class="flex flex-col gap-4">
       <div class="control mt-[20px]">
