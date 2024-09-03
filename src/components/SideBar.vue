@@ -1,12 +1,12 @@
 <template>
   <div
-    class="text-white    px-4 w-[18%] flex flex-col justify-around box items-center"
+    class="text-white h-full    px-4 w-[18%] flex flex-col justify-around box items-center"
   >
     <div class="image">
       <img
         src="../assets/logo-white.png"
         alt="logo"
-        class="bg-primary h-[30px] w-[80px]"
+        class="bg-primary h-[40px] w-[80px] mt-[20px]"
       />
     </div>
     <ul class="list  mt-[38px] w-full">
