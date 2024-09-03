@@ -1,15 +1,15 @@
 <template>
   <div
-    class="text-white  px-4 w-[18%] flex flex-col justify-around box items-center"
+    class="text-white    px-4 w-[18%] flex flex-col justify-around box items-center"
   >
     <div class="image">
       <img
         src="../assets/logo-white.png"
         alt="logo"
-        class="bg-primary h-[50px] w-[100px]"
+        class="bg-primary h-[30px] w-[80px]"
       />
     </div>
-    <ul class="list w-full">
+    <ul class="list  mt-[38px] w-full">
       <li
         class="py-2.5 px-2 hover:bg-tertiary hover:text-primary hover:rounded-md items-center text-[17px] justify-start flex gap-2"
       >
