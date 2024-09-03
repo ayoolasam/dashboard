@@ -1,5 +1,5 @@
 <template>
-  <div class="flex employeeInfo     w-full px-12 py-[20px]  gap-[5px]">
+  <div class="flex employeeInfo     w-full px-12 py-[10px]   gap-[5px]">
 <div class="left w-[40%] flex flex-col gap-4">
   <div class=" top rounded-lg w-full  py-4 px-4 flex flex-col gap-6 border-bColor border-[1.5px]">
     

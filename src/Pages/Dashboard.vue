@@ -1,5 +1,5 @@
 <template>
-  <div class=" dashboard    w-screen ">
+  <div class=" dashboard  h-screen   w-screen ">
 <div class="bg-tertiary pb-12 h-full   slot rounded-tl-3xl">
  <slot>
 

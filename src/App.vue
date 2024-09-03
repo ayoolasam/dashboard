@@ -10,7 +10,9 @@ import SideBar from './components/SideBar.vue'
     <div class=" bg-primary   flex ">
     <!-- <DashboardVue/> -->
      <SideBar/>
-     <RouterView />
+  
+      <RouterView />
+        
   
   </div>
   </div>
